@@ -1,0 +1,216 @@
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    #navSm,
+    #openNav,
+    .nav-sm img {
+        display: none;
+    }
+
+    .navbar-collapse ul li a {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-collapse ul li a {
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+    .navbar-collapse button {
+        font-size: 0.6rem !important;
+    }
+
+    .navbar .collapse {
+        margin: auto;
+    }
+
+    .navbar img {
+        width: 60% !important;
+    }
+
+    .logo-img {
+        width: 13rem;
+        height: 8rem;
+    }
+
+    #navSm,
+    #openNav,
+    .nav-sm img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+
+    .logo-img {
+        width: 13rem;
+        height: 8rem;
+    }
+
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #project>h2::after,
+    #about>h2::after,
+    #update>h2::after,
+    #client>h2::after {
+        width: 10rem;
+        left: 6%;
+
+    }
+
+    #project>h2::before,
+    #about>h2::before,
+    #update>h2::before,
+    #client>h2::before {
+        width: 10rem;
+        right: 6%;
+
+    }
+
+
+
+    #about .row {
+        align-items: start !important;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #navSm {
+        display: flex;
+        width: 90%;
+    }
+
+    .nav-sm img {
+        width: 10rem;
+    }
+
+    .footer-logo .col-md-4 .w-75 {
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .logo-img {
+        width: 8rem;
+        height: 6rem;
+    }
+
+    .logo-container1 {
+        top: 17%;
+        left: 27%;
+    }
+
+    .logo-container2 {
+        top: 60%;
+        left: 20%;
+    }
+
+    .logo-container3 {
+        top: 17%;
+        left: -27%;
+    }
+
+    .logo-container4 {
+        top: 60%;
+        left: -20%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        overflow: hidden;
+    }
+
+    #project>h2::after,
+    #about>h2::after,
+    #update>h2::after,
+    #client>h2::after {
+        width: 4rem;
+        left: 2%;
+
+    }
+
+    #project>h2::before,
+    #about>h2::before,
+    #update>h2::before,
+    #client>h2::before {
+        width: 4rem;
+        right: 2%;
+
+    }
+
+    .middle-nav {
+        flex-direction: column;
+    }
+
+    .middle-nav>div {
+        margin: 2rem 0 0 0;
+    }
+
+    footer .col-md-4 {
+        margin: .7rem 0 !important;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #navSm {
+        display: flex;
+        width: 90%;
+    }
+
+    .nav-sm img {
+        width: 10rem;
+    }
+    .update-container1{
+        top: -30%;
+        left: 10%;
+    }
+    .update-container2{
+        top: 140px !important;
+        right: 50px !important;
+    }
+    .second-update{
+        transform: translateY(20rem);
+    }
+    #update{
+        height: 90rem;
+    }
+    .update-container3{
+        top: 200px !important;
+        left: 10% !important;
+    }
+    .update-container4{
+        top: 330px !important;
+        left: 90px !important;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        display: none;
+    }
+
+    #navSm {
+        display: flex;
+        width: 90%;
+    }
+
+    .nav-sm img {
+        width: 10rem;
+    }
+
+}
